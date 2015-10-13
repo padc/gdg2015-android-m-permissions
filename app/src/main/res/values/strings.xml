@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">GDG Android M Permissions</string>
+    <string name="app_name">Android Permissions Demo</string>
+    <string name="recipient_hint">Recipient</string>
+    <string name="your_message_hint">Your message</string>
+    <string name="send">Send</string>
+    <string name="invalid_recipient_error">Recipient is invalid</string>
+    <string name="message_empty_error">Message cannot be empty</string>
+    <string name="sms_permission_needed">SMS permission is needed, allow?</string>
+    <string name="allow">Allow</string>
+    <string name="unable_to_send">Failed to send SMS</string>
+    <string name="request">Request</string>
+    <string name="permission_granted_sending">Permission granted, sending!</string>
+    <string name="delegate_send">Delegate Send</string>
 </resources>

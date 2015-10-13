@@ -17,10 +17,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        newPermission {
+            applicationId "com.deubaka.gdg.androidmpermissions.new"
+            targetSdkVersion 23
+            versionName "1.0 (New Permission Model)"
+        }
+
+        oldPermission {
+            applicationId "com.deubaka.gdg.androidmpermissions.old"
+            targetSdkVersion 22
+            versionName "1.0 (Old Permission Model)"
+        }
+    }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.0'
+
 }
